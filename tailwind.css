@@ -1,0 +1,17 @@
+@import 'public/site/templates/styles/modifiche.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	/*base rem font size*/
+	html{
+		font-size: 20px;
+	}
+	/*@media (min-width:1280px) {
+     html {
+      font-size:20px;
+     }
+    }*/
+}
