@@ -1,3 +1,5 @@
+/*come font weight abbiamo dal file adobe 400 + 700 (normal +  bold) */
+
 @import 'public/site/templates/styles/modifiche.css';
 
 @tailwind base;
@@ -8,10 +10,6 @@
 	/*base rem font size*/
 	html{
 		font-size: 20px;
+		font-family: "forma-djr-banner", sans-serif;
 	}
-	/*@media (min-width:1280px) {
-     html {
-      font-size:20px;
-     }
-    }*/
 }

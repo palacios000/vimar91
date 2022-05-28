@@ -14,6 +14,7 @@ module.exports = {
       },
       colors:{
         'grigio-chiaro': '#C6C6C6',
+        'grigio-footer': '#EDEDED',
       },
       spacing: {
         '17': '4.25rem',
@@ -27,6 +28,16 @@ module.exports = {
         '77p': '77%',
       },
       fontSize: {
+        '2vh': '2vh',
+        '2.25vh': '2.25vh',
+        '2.5vh': '2.5vh',
+        '2.75vh': '2.75vh',
+        '3vh': '3vh',
+        '4vh': '4vh',
+        '5vh': '5vh',
+        '6vh': '6vh',
+        '7vh': '7vh',
+        '8vh': '8vh',
         '13pt': '0.65rem',
         '17pt': '75%',
         '21pt': '0.935rem',
@@ -35,7 +46,24 @@ module.exports = {
         // Percentage gets too big
         // '21pt': '116.8%',
         // '36pt': '208%',
-        // '50pt': '281.25%',
+      },
+      lineHeight: {
+        '2vh': '2vh',
+        '2.25vh': '2.25vh',
+        '2.5vh': '2.5vh',
+        '2.75vh': '2.75vh',
+        '3vh': '3vh',
+        '3.5vh': '3.5vh',
+        '4vh': '4vh',
+        '5vh': '5vh',
+        '6vh': '6vh',
+        '7vh': '7vh',
+      },
+      fontWeight: {
+        'md': 450,
+      },
+      fontFamily: {
+        'djr': ['forma-djr-banner'],
       },
     },
   },

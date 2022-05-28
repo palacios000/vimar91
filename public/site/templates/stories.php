@@ -2,35 +2,7 @@
   <body class="" >
 	<!-- Container div -->
 	<div>
-		<!-- Navigation -->
-		<div class="flex bg-white h-15p mt-auto px-16 sticky top-0 z-50">
-			<div class="uppercase my-auto text-36pt">
-				<a href="#">
-					<span class="font-bold ">Vimar</span>1991
-				</a>
-			</div>
-			<div class="flex flex-row gap-x-3 my-auto ml-auto uppercase text-grigio-chiaro text-21pt">
-				<div class="pl-3.5 hover:text-gray-700 ease-in-out duration-100">
-					<a href="#">
-						V91
-					</a>
-				</div>
-				<div class="pl-3.5 hover:text-gray-700 ease-in-out duration-100">
-					<a href="#">
-						Stories
-					</a>
-				</div>
-				<div class="pl-3.5 hover:text-gray-700 ease-in-out duration-100">
-					<a href="#">
-						Catalogue
-					</a>
-				</div>
-			</div>
-			<!-- Fix visibility @sm @md -->
-			<div class="visible sm:hidden uppercase">
-				Menu
-			</div>
-		</div>
+		<?php require 'inc/menu.php' ?>
 
 		<!-- Posts grid -->
 		<div class="grid grid-cols-2 px-16 gap-x-16">
@@ -43,11 +15,11 @@
 				</div>
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-36pt font-semibold leading-7 pb-2">
+					<div class="uppercase text-6vh leading-6vh font-bold tracking-widest pb-2">
 						Swinging <br> africa
 					</div>
 					<!-- Card description -->
-					<div class="leading-4 text-17pt">
+					<div class="text-sm">
 						The desire to celebrate a renewed freedom after this pandemic situation, proposes a new ethic for the world based on a better living.
 					</div>
 				</div>
@@ -59,11 +31,11 @@
 				</div>
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-36pt font-semibold leading-7 pb-2">
+					<div class="uppercase text-6vh leading-6vh font-bold tracking-widest pb-2">
 						ELHAM M. AGHILI <br> HYBRIDS					
 					</div>
 					<!-- Card description -->
-					<div class="leading-4 text-17pt">
+					<div class="text-sm">
 						A precious, dreamy, and even magical atmosphere, sparkling with positive energy necessary to escape from the mundane life.
 					</div>
 				</div>
@@ -75,11 +47,11 @@
 				</div>
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-36pt font-semibold leading-7 pb-2">
+					<div class="uppercase text-6vh leading-6vh font-bold tracking-widest pb-2">
 						Swinging <br> africa
 					</div>
 					<!-- Card description -->
-					<div class="leading-4 text-17pt">
+					<div class="text-sm">
 						The desire to celebrate a renewed freedom after this pandemic situation, proposes a new ethic for the world based on a better living.
 					</div>
 				</div>
@@ -88,11 +60,11 @@
 			<div class="flex flex-col flex-grow mb-23">
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-36pt font-semibold leading-7 pb-2">
+					<div class="uppercase text-6vh leading-6vh font-bold tracking-widest pb-2">
 						ELHAM M. AGHILI <br> HYBRIDS					
 					</div>
 					<!-- Card description -->
-					<div class="leading-4 text-17pt">
+					<div class="text-sm">
 						A precious, dreamy, and even magical atmosphere, sparkling with positive energy necessary to escape from the mundane life.
 					</div>
 				</div>
