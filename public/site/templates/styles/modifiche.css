@@ -1,2 +1,12 @@
 /* *** modifiche ed aggiunte da apportare a tailwind *** */
 /* questo file viene importato da tailwind.css, che si trova nel root del progetto */
+
+//Arrow icon for footer 
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
