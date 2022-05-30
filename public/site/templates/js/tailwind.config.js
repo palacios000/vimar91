@@ -17,7 +17,10 @@ module.exports = {
         'grigio-footer': '#EDEDED',
       },
       spacing: {
+        '15': '3.75rem',
         '17': '4.25rem',
+        '18': '4.5rem',
+        '21': '5.25rem',
         '23': '5.75rem',
         // Banner heights
         '15p': '15vh',
@@ -28,11 +31,25 @@ module.exports = {
         '77p': '77%',
       },
       fontSize: {
+        '3xl':'1.8rem', //overrides default 1.875
+        'menu': ['1.1rem',{
+          letterSpacing: '0.12em',
+          lineHeight: '1.2rem',
+        }], 
+        'xs': ['0.65rem',{
+          letterSpacing: '0.12em',
+          lineHeight: '1rem',
+        }],
+        'sm': ['0.85rem',{
+          letterSpacing: '0.12em',
+          lineHeight: '1.2rem',
+        }], 
         '2vh': '2vh',
         '2.25vh': '2.25vh',
         '2.5vh': '2.5vh',
         '2.75vh': '2.75vh',
         '3vh': '3vh',
+        '3.5vh': '3.5vh',
         '4vh': '4vh',
         '5vh': '5vh',
         '6vh': '6vh',
@@ -58,9 +75,10 @@ module.exports = {
         '5vh': '5vh',
         '6vh': '6vh',
         '7vh': '7vh',
+        '4.5': '1.125rem;',
       },
-      fontWeight: {
-        'md': 450,
+      letterSpacing: {
+        //'widest': '.2em',
       },
       fontFamily: {
         'djr': ['forma-djr-banner'],
