@@ -6,7 +6,7 @@
     <!-- First row -->
     <div class="flex flex-row columns-2 pb-8">
         <div class="font-bold text-lg tracking-widest py-6 w-1/2 uppercase">
-            <a href="#">
+            <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">
                 Iscriviti alla nostra newsletter
             </a>
         </div>
@@ -33,16 +33,16 @@
             <div class="w-1/2 mr-14">
                 <ul class="">
                     <li>
-                        <a href="#">Company</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Company</a>
                     </li>
                     <li>
-                        <a href="#">V91</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">V91</a>
                     </li>
                     <li>
-                        <a href="#">Stories</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Stories</a>
                     </li>
                     <li>
-                        <a href="#">Catalogue</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Catalogue</a>
                     </li>
                 </ul>
             </div>
@@ -50,16 +50,16 @@
             <div class="w-1/2">
                 <ul class="">
                     <li>
-                        <a href="#">Resources</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Resources</a>
                     </li>
                     <li>
-                        <a href="#">Legal</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Legal</a>
                     </li>
                     <li>
-                        <a href="#">Privacy</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Privacy</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,12 +69,12 @@
     <!-- Third row -->
     <div class="flex flex-row text-lg tracking-widest font-bold uppercase">
         <div class="w-1/2">
-            <a href="#">
+            <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">
                 Change language to italian
             </a>
         </div>
         <div class="text-right pb-2 ml-auto w-1/2">
-            <a href="#">
+            <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">
                 Social
             </a>
         </div>
