@@ -402,6 +402,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 html{
 		font-size: 20px;
 		font-family: "forma-djr-banner", sans-serif;
+		font-weight: 500;
 	}
 
 *, ::before, ::after {
@@ -599,18 +600,18 @@ html{
   auto
 }
 
-.my-3 {
-  margin-top:
-  0.75rem;
-  margin-bottom:
-  0.75rem
-}
-
 .my-auto {
   margin-top:
   auto;
   margin-bottom:
   auto
+}
+
+.my-3 {
+  margin-top:
+  0.75rem;
+  margin-bottom:
+  0.75rem
 }
 
 .mr-auto {
@@ -621,6 +622,16 @@ html{
 .ml-auto {
   margin-left:
   auto
+}
+
+.mt-auto {
+  margin-top:
+  auto
+}
+
+.mt-12 {
+  margin-top:
+  3rem
 }
 
 .mb-23 {
@@ -638,9 +649,9 @@ html{
   3.5rem
 }
 
-.mt-auto {
-  margin-top:
-  auto
+.block {
+  display:
+  block
 }
 
 .flex {
@@ -668,6 +679,11 @@ html{
   auto
 }
 
+.h-15p {
+  height:
+  15vh
+}
+
 .h-28 {
   height:
   7rem
@@ -681,11 +697,6 @@ html{
 .h-full {
   height:
   100%
-}
-
-.h-15p {
-  height:
-  15vh
 }
 
 .w-1\/2 {
@@ -716,6 +727,11 @@ html{
 .w-520px {
   width:
   26rem
+}
+
+.w-52 {
+  width:
+  13rem
 }
 
 .w-77p {
@@ -864,6 +880,13 @@ html{
   rgb(254 226 226 / var(--tw-bg-opacity))
 }
 
+.bg-white {
+  --tw-bg-opacity:
+  1;
+  background-color:
+  rgb(255 255 255 / var(--tw-bg-opacity))
+}
+
 .bg-red-500 {
   --tw-bg-opacity:
   1;
@@ -876,13 +899,6 @@ html{
   1;
   background-color:
   rgb(237 237 237 / var(--tw-bg-opacity))
-}
-
-.bg-white {
-  --tw-bg-opacity:
-  1;
-  background-color:
-  rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
 .object-cover {
@@ -1029,6 +1045,11 @@ html{
   0.75rem
 }
 
+.pb-1 {
+  padding-bottom:
+  0.25rem
+}
+
 .pl-3\.5 {
   padding-left:
   0.875rem
@@ -1129,14 +1150,19 @@ html{
   1.75rem
 }
 
+.text-s1 {
+  font-size:
+  0.75rem
+}
+
 .font-bold {
   font-weight:
   700
 }
 
-.font-normal {
+.font-light {
   font-weight:
-  400
+  300
 }
 
 .font-medium {

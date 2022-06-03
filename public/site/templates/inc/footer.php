@@ -24,7 +24,7 @@
     </div>
     <!-- Second row -->
     <div class="flex flex-row pt-3 pb-8 text-base">
-        <div class="font-normal w-1/2 leading-4 tracking-widest object-top">
+        <div class="w-1/2 leading-4 tracking-widest object-top">
             <span class="font-bold">VIMAR</span>1991 srl <br> Via per Santhià 8 <br> Carisio (VC) 13040
         </div> 
         <!-- Links section -->
@@ -33,16 +33,16 @@
             <div class="w-1/2 mr-14">
                 <ul class="">
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Company</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Company</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">V91</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">V91</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Stories</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Stories</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Catalogue</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Catalogue</a>
                     </li>
                 </ul>
             </div>
@@ -50,16 +50,16 @@
             <div class="w-1/2">
                 <ul class="">
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Resources</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Resources</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Legal</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Legal</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Privacy</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Privacy</a>
                     </li>
                     <li>
-                        <a class="hover:text-gray-700/70 ease-in-out duration-150" href="#">Contact</a>
+                        <a class="hover:text-gray-700/70 ease-in-out duration-150 pb-1 block" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
