@@ -83,6 +83,10 @@ module.exports = {
       fontFamily: {
         'djr': ['forma-djr-banner'],
       },
+      width: {
+        '520px': '26rem',
+        '700px': '35rem',
+      }
     },
   },
   plugins: [ 

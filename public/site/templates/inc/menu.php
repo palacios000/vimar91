@@ -7,7 +7,7 @@
 			</div>
 			<div class="hidden sm:visible sm:flex flex-row gap-x-3 my-auto ml-auto uppercase text-grigio-chiaro text-menu font-normal tracking-widest">
 				<div class="pl-3.5 hover:text-gray-700 ease-in-out duration-100">
-					<a href="">
+					<a href="<?= $interne->url ?>">
 						V91
 					</a>
 				</div>
