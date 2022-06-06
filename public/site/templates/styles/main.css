@@ -593,6 +593,16 @@ html{
   9999
 }
 
+.float-right {
+  float:
+  right
+}
+
+.clear-both {
+  clear:
+  both
+}
+
 .mx-auto {
   margin-left:
   auto;
@@ -732,6 +742,11 @@ html{
 .w-52 {
   width:
   13rem
+}
+
+.w-7\/12 {
+  width:
+  58.333333%
 }
 
 .w-77p {
@@ -941,6 +956,13 @@ html{
   3.75rem
 }
 
+.py-12 {
+  padding-top:
+  3rem;
+  padding-bottom:
+  3rem
+}
+
 .py-20 {
   padding-top:
   5rem;
@@ -1005,6 +1027,21 @@ html{
   6rem
 }
 
+.pr-10 {
+  padding-right:
+  2.5rem
+}
+
+.pb-6 {
+  padding-bottom:
+  1.5rem
+}
+
+.pl-3 {
+  padding-left:
+  0.75rem
+}
+
 .pb-7 {
   padding-bottom:
   1.75rem
@@ -1053,11 +1090,6 @@ html{
 .pl-3\.5 {
   padding-left:
   0.875rem
-}
-
-.pl-3 {
-  padding-left:
-  0.75rem
 }
 
 .text-left {
@@ -1131,6 +1163,11 @@ html{
   1.5rem
 }
 
+.text-s1 {
+  font-size:
+  0.75rem
+}
+
 .text-6vh {
   font-size:
   6vh
@@ -1150,11 +1187,6 @@ html{
   1.75rem
 }
 
-.text-s1 {
-  font-size:
-  0.75rem
-}
-
 .font-bold {
   font-weight:
   700
@@ -1168,6 +1200,11 @@ html{
 .font-medium {
   font-weight:
   500
+}
+
+.font-semibold {
+  font-weight:
+  600
 }
 
 .uppercase {

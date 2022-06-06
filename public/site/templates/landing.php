@@ -28,64 +28,86 @@
 			</div>
 			
 			<!-- Strillo sinistra -->
-			<div class="text-3xl leading-7 font-bold w-1/2 tracking-widest mr-auto pb-15">
+			<div class="text-3xl leading-7 font-bold w-7/12 tracking-widest mr-auto ">
 				<h2>
-					VIMAR1991 È PARTNER TECNICO
-					DI INSIDE LOOKING OUT,
-					A MULTI–SENSORY
-					APARTMENT INSTALLATION
-					BY ELISA OSSI NO STUDIO.
+					VIMAR1991 È PARTNER TECNICO DI INSIDE LOOKING OUT, A MULTI–SENSORY APARTMENT INSTALLATION BY ELISA OSSINO STUDIO. 
 				</h2>
 			</div>
 
-			<!-- Left text -->
-			<div class="text-base leading-5 tracking-widest w-1/2 mr-auto pb-15">
+			<!-- immagine destra -->
+			<div class="float-right w-1/2 py-12">
+				<img src="<?php echo $config->urls->templates?>landing/elisa-ossino_cut.jpg" alt="Elisa Ossino Studio">
 			</div>
+			<span class="block clear-both"></span>
+
+			<!-- Strillo sinistra -->
+			<div class="text-3xl leading-7 font-bold w-7/12 tracking-widest mr-auto ">
+				<p>
+					IN COLLABORAZIONE CON LA DESIGNER ELISA OSSINO, VIMAR1991 PRESENTERÀ DURANTE LA DESIGN WEEK, UN TESSUTO PER IMBOTTITI DAI TONI NATURALI E CALDI IN GRADO DI VALORIZZARE LA PREZIOSITÀ DELLA FIBRA 
+					E LE FORME CHE VESTIRÀ. 
+					IL TESSUTO, LAVORATO A MANO, ESALTA LA PUREZZA NATURALE DELLA LANA IN UN’OTTICA DI SOSTENIBILITÀ 
+					E VALORIZZAZIONE DEL 
+					KNOW HOW ITALIANO. 
+				</p>
+			</div>
+
+			<!-- Banner picture -->
+			<div class="w-full pt-24 pb-20">
+				<img class="w-full" src="<?= $config->urls->templates?>landing/FULL.jpg" alt="tessuto lana">
+			</div>
+
+
+		
 
 			<!-- Right text -->
 			<div class="text-base leading-5 tracking-widest w-1/2 ml-auto pb-15">
-				Nata come aguglieria negli anni Settanta, progressivamente Vimar1991 , si differenzia dalle altre realtà tessili, specializzandosi nella produzione di filati fantasia con un focus sempre maggiore sulla ricerca e customizzazione di ogni progetto e prodotto. Situata a Carisio, in Piemonte, la sua sede si estende per più di 10000mq tra Biella e Vercelli.
+				<p class="pr-10">
+				Questa tipologia di filati nuovi per l’arredamento, sono 
+				il frutto di lavorazioni specifiche della filatura fantasia. 
+				Il bouclè, infatti, è lavorato per creare le boccole, 
+				mentre la pelliccia nasce come lineare e poi viene ritorta per creare un filato effetto ciniglia. Anche il finissaggio usato per i filati sposa la poetica materica della designer, trattandosi di un vaporizzo in matasse, 
+				che favorisce il rigonfiamento della lana e restituisce volume e rotondità al filato senza andare ad intaccare 
+				la bellezza della fibra di cui è composto. 
+				</p>
 			</div>
 
-			<!-- Small text left -->
-			<div class="text-sm leading-4 tracking-widest w-1/2 mr-auto pb-15">
-				Siamo promotori di bellezza. Ogni nostro filato è frutto di una meticolosa ricerca e sperimentazione che coinvolge tutte le fasi della produzione, dall’ideazione alla realizzazione. Tramandiamo e valorizziamo il nostro savoir-faire come un patrimonio da custodire e arricchire. Siamo promotori di bellezza. Ogni nostro
+
+			<!-- Strillo sinistra -->
+			<div class="text-3xl leading-7 font-bold w-7/12 tracking-widest mr-auto ">
+				<p>
+					LO STILE E L’ELEGANZA GUIDANO DA SEMPRE IL CICLO PRODUTTIVO DELL’AZIENDA, RENDENDONE I PRODOTTI RICONOSCIBILI, 
+					UNICI E RAFFINATI.
+					AD ACCOMPAGNARE QUESTA RICERCA, VI SONO UNA CONTINUA INNOVAZIONE E SPERIMENTAZIONE NELL’UTILIZZO DI FIBRE E MATERIALI INSIEME AD UN KNOW HOW ACQUISITO NEGLI ANNI MA RIPROPOSTO SEMPRE IN CHIAVE CONTEMPORANEA.
+				</p>
+			</div>
+
+			<!-- One picture -->
+			<div class="w-700px mx-auto py-15">
+				<img src="<?= $config->urls->templates?>landing/750x505_02.jpg" alt="filati">
 			</div>
 
 			<!-- Small text right -->
 			<div class="text-sm leading-4 tracking-widest w-1/2 ml-auto pb-15">
-				Siamo promotori di bellezza. Ogni nostro filato è frutto di una meticolosa ricerca e sperimentazione che coinvolge tutte le fasi della produzione, dall’ideazione alla realizzazione. Tramandiamo e valorizziamo il nostro savoir-faire come un patrimonio da custodire e arricchire. Siamo promotori di bellezza. Ogni nostro
+				<p class="pb-6 pr-10">
+					Da qui nasce l’eccezionale varietà dei filati che Vimar 
+					è in grado di produrre e presentare al mondo, facendosi promotrice di un’instancabile voglia di novità ed esclusività.
+				</p>
+				<p class="pb-6 pr-10">
+					Da giugno 2020 l’azienda ha avviato un rinnovamento interno, che ha come cardini la tracciabilità e la sostenibilità dei materiali utilizzati, oltre all’upcycling degli scarti di produzione. 
+					Oggi è un’azienda certificata in grado di offrire prodotti che incarnino una responsabilità etica produttiva oltre ad un’eccellenza di stile e ricercatezza.
+				</p>
+				<p class="pb-6 pr-10">
+					Lo stile e l’eleganza guidano da sempre il ciclo produttivo dell’azienda, rendendone i prodotti riconoscibili, unici e raffinati.
+					Ad accompagnare questa ricerca, vi sono una continua innovazione e sperimentazione nell’utilizzo di fibre e materiali insieme ad un know how acquisito negli anni ma riproposto sempre in chiave contemporanea. 
+					Da qui nasce l’eccezionale varietà dei filati che Vimar è in grado di produrre e presentare al mondo, 
+					facendosi promotrice di un’instancabile voglia di novità ed esclusività.
+					Da giugno 2020 l’azienda ha avviato un rinnovamento interno, che ha come cardini la tracciabilità e la sostenibilità dei materiali utilizzati, oltre all’upcycling degli scarti di produzione. 
+					Oggi è un’azienda certificata in grado di offrire prodotti che incarnino una responsabilità etica produttiva oltre ad un’eccellenza di stile e ricercatezza.
+				</p>
 			</div>
 
-			<!-- One picture -->
-			<div class="w-700px mx-auto pb-15">
-				<img src="<?= $config->urls->templates?>pictures/pic700.jpg" alt="">
-			</div>
 
-			<!-- Two pictures -->
-			<div class="pb-15 flex flex-row gap-x-16">
-				<div class="w-520px h-auto">
-					<img class="object-cover" src="<?= $config->urls->templates?>pictures/7.png" alt="">
-				</div>
-				<div class="w-520px h-auto pt-24">
-					<img class="object-cover" src="<?= $config->urls->templates?>pictures/8.jpg" alt="">
-				</div>
-			</div>
 		</div>
-
-		<!-- Banner picture -->
-		<div class="w-full bg-red-100">
-			<img class="w-full" src="<?= $config->urls->templates?>pictures/banner.png" alt="">
-		</div>
-
-		<!-- 3 Pictures container -->
-		<div class="py-15">
-			<img class="" src="" alt="">
-			<img class="" src="" alt="">
-			<img class="" src="" alt="">
-		</div>
-
-  	
 
   	<!-- footer -->
   	<footer class="mt-12 px-16 ">

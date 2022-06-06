@@ -32,6 +32,7 @@ module.exports = {
       },
       fontSize: {
         '3xl':'1.8rem', //overrides default 1.875
+        's1':'0.75rem', //15px
         'menu': ['1.1rem',{
           letterSpacing: '0.12em',
           lineHeight: '1.2rem',
