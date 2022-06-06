@@ -977,6 +977,13 @@ html{
   1.5rem
 }
 
+.px-8 {
+  padding-left:
+  2rem;
+  padding-right:
+  2rem
+}
+
 .pb-20 {
   padding-bottom:
   5rem
@@ -1345,5 +1352,30 @@ html{
   .sm\:hidden {
     display:
   none
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .md\:float-right {
+    float:
+  right
+  }
+
+  .md\:w-1\/2 {
+    width:
+  50%
+  }
+
+  .md\:w-7\/12 {
+    width:
+  58.333333%
+  }
+
+  .md\:px-16 {
+    padding-left:
+  4rem;
+    padding-right:
+  4rem
   }
 }
