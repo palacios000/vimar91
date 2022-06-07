@@ -2,7 +2,7 @@
 <script src="<?php echo $config->urls->templates?>js/uikit-icons.min.js"></script>
 
 <!-- Footer container -->
-<div class="flex columns-2 flex-col mr-auto pl-18 pr-18 pt-11 pb-14 bg-grigio-footer font-medium">
+<div class="flex columns-2 flex-col mr-auto px-9 md:px-18 pt-11 pb-14 bg-grigio-footer font-medium">
     <!-- First row -->
     <div class="flex flex-row columns-2 pb-8">
         <div class="font-bold text-lg tracking-widest py-6 w-1/2 uppercase">
