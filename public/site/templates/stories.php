@@ -5,21 +5,21 @@
 		<?php require 'inc/menu.php' ?>
 
 		<!-- Posts grid -->
-		<div class="grid grid-cols-2 px-16 gap-x-16">
+		<div class="grid grid-cols-1 md:grid-cols-2 px-8 md:px-16 md:gap-x-16">
 			<!-- Picture-first Post -->
 			<div class="flex flex-col flex-grow mb-23">
 				<!-- Add classes .order-last and .mt-7 when printing even elements -->
 				<!-- Leave just .pb-7 when printing odd elements -->
-				<div class="pb-7">
+				<div class="sm:order-last sm:pt-7 md:order-first pb-7">
 					<img class="object-cover w-full" src="<?= $config->urls->templates?>pictures/3.jpg" alt="African man">
 				</div>
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-6vh leading-6vh font-bold tracking-widest pb-2">
+					<div class="uppercase text-4vh leading-4vh md:text-6vh md:leading-6vh font-bold tracking-widest pb-2">
 						Swinging <br> africa
 					</div>
 					<!-- Card description -->
-					<div class="text-sm">
+					<div class=" md:text-sm">
 						The desire to celebrate a renewed freedom after this pandemic situation, proposes a new ethic for the world based on a better living.
 					</div>
 				</div>

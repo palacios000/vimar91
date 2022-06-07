@@ -22,7 +22,9 @@ module.exports = {
         '18': '4.5rem',
         '21': '5.25rem',
         '23': '5.75rem',
-        // Banner heights
+        '25': '6.25rem',
+        '76': '19rem',
+// Banner heights
         '15p': '15vh',
         '42p': '42.5vh',
         //Percentage spacing
@@ -87,6 +89,8 @@ module.exports = {
       width: {
         '520px': '26rem',
         '700px': '35rem',
+        '81': '20.5rem',
+        '29p': '29vw',
       }
     },
   },
