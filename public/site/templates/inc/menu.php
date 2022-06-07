@@ -1,6 +1,6 @@
 <!-- Navigation -->
-<div class="flex bg-white h-15p mt-auto px-16 sticky top-0 z-50">
-			<div class="uppercase my-auto text-2xl md:text-3xl tracking-widest">
+<div class="flex bg-white h-32 md:h-15p mt-auto px-8 md:px-16 sticky top-0 z-50">
+			<div class="uppercase my-auto text-xl md:text-3xl tracking-widest">
 				<a href="<?= $homepage->url ?>">
 					<span class="font-bold ">Vimar</span><span class="font-light">1991</span>
 				</a>
@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<!-- Menu button -->
-			<div class="visible md:hidden uppercase text-2xl text-grigio-chiaro my-auto ml-auto ">
+			<div class="visible md:hidden uppercase text-xl text-grigio-chiaro my-auto ml-auto ">
 				<div class="pl-3.5 hover:text-gray-700 ease-in-out duration-100">
 					<a href=" ">
 						Menu
