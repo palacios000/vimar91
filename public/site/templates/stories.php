@@ -15,7 +15,7 @@
 				</div>
 				<div class="w-77p">
 					<!-- Card title -->
-					<div class="uppercase text-4vh leading-4vh md:text-6vh md:leading-6vh font-bold tracking-widest pb-2">
+					<div class="uppercase text-5vh leading-5vh md:text-6vh md:leading-6vh font-bold tracking-widest pb-2">
 						Swinging <br> africa
 					</div>
 					<!-- Card description -->

@@ -17,6 +17,7 @@ module.exports = {
         'grigio-footer': '#EDEDED',
       },
       spacing: {
+        '13': '3.25rem',
         '15': '3.75rem',
         '17': '4.25rem',
         '18': '4.5rem',
@@ -24,7 +25,7 @@ module.exports = {
         '23': '5.75rem',
         '25': '6.25rem',
         '76': '19rem',
-// Banner heights
+        // Banner heights
         '15p': '15vh',
         '42p': '42.5vh',
         //Percentage spacing
@@ -63,9 +64,6 @@ module.exports = {
         '21pt': '0.935rem',
         '36pt': '1.665rem',
         '50pt': ['2.25rem', '2rem'],
-        // Percentage gets too big
-        // '21pt': '116.8%',
-        // '36pt': '208%',
       },
       lineHeight: {
         '2vh': '2vh',
