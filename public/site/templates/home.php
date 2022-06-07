@@ -5,7 +5,7 @@
 		<?php require 'inc/menu.php' ?>
 
 		<!-- First banner -->
-		<div class="h-76 md:h-42p w-full overflow-hidden relative">
+		<div class="h-42p w-full overflow-hidden relative">
 			<img class="object-cover h-76 md:h-42p md:w-full z-0" src="<?= $config->urls->templates?>pictures/1-wide.jpg" alt="flower banner">
 			<div class="absolute w-full sm:pl-8 md:pl-0 md:right-0 p-3 inset-y-0 flex md:w-1/2 align-center z-10 text-black font-bold text-8vh leading-7vh tracking-widest">
 				<div class="self-center w-1/2">
@@ -26,7 +26,7 @@
 
 		<!-- Third banner -->
 		<div class="h-42p w-full overflow-hidden relative">
-			<img class="object-cover h-42p w-full z-0" src="<?= $config->urls->templates?>pictures/1-wide.jpg" alt="flower banner">
+			<img class="object-cover h-42p md:w-full z-0" src="<?= $config->urls->templates?>pictures/1-wide.jpg" alt="flower banner">
 			<div class="absolute w-full sm:pl-8 md:pl-0 md:right-0 p-3 inset-y-0 flex md:w-1/2 align-center z-10 text-black font-bold text-8vh leading-7vh tracking-widest">
 				<div class="self-center w-1/2">
 					LINFA COLLECTION NEW SS MAY 2022
