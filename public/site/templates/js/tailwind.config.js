@@ -17,13 +17,16 @@ module.exports = {
         'grigio-footer': '#EDEDED',
       },
       spacing: {
+        '13': '3.25rem',
         '15': '3.75rem',
         '17': '4.25rem',
         '18': '4.5rem',
         '21': '5.25rem',
         '23': '5.75rem',
+        '25': '6.25rem',
+        '76': '19rem',
         // Banner heights
-        '15p': '15vh',
+        '15p': '15vh', 
         '42p': '42.5vh',
         //Percentage spacing
         '5p': '5.23%',
@@ -32,7 +35,7 @@ module.exports = {
       },
       fontSize: {
         '2xxl': ['1.7rem', '1.6rem'], 
-        '1xl': ['1.5rem', '1.45rem'], 
+        '1xl': ['1.45rem', '1.4rem'], 
         '3xl':'1.8rem', //overrides default 1.875
         's1':'0.75rem', //15px
         'menu': ['1.1rem',{
@@ -63,9 +66,6 @@ module.exports = {
         '21pt': '0.935rem',
         '36pt': '1.665rem',
         '50pt': ['2.25rem', '2rem'],
-        // Percentage gets too big
-        // '21pt': '116.8%',
-        // '36pt': '208%',
       },
       lineHeight: {
         '2vh': '2vh',
@@ -89,10 +89,32 @@ module.exports = {
       width: {
         '520px': '26rem',
         '700px': '35rem',
+        '81': '20.5rem',
+        '29p': '29vw',
       }
     },
   },
   plugins: [ 
     require('@tailwindcss/typography'),
+    // animation: https://animate.style/
+    require('tailwindcss-animatecss')({
+            classes: [
+            'animate__animated', 
+            'animate__fadeInLeft', 
+            'animate__fadeInLeftBig', 
+            'animate__fadeInRight', 
+            'animate__fadeInRightBig',
+            'animate__bounce'
+            ],
+            settings: {
+              animatedSpeed: 1000,
+              heartBeatSpeed: 1000,
+              hingeSpeed: 2000,
+              bounceInSpeed: 750,
+              bounceOutSpeed: 750,
+              animationDelaySpeed: 1000
+            },
+            variants: ['responsive', 'hover', 'reduced-motion'],
+          }),
   ],
 }

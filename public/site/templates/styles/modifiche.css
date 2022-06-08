@@ -1,12 +1,16 @@
 /* *** modifiche ed aggiunte da apportare a tailwind *** */
 /* questo file viene importato da tailwind.css, che si trova nel root del progetto */
 
-//Arrow icon for footer 
+/*Arrow icon for footer*/ 
+[x-cloak] { display: none !important; }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
+
+/*animation in tailwind.config.JS + https://animate.style/ */
+
+/* mansory uk-kit classes per #hits */
+	.uk-flex-top {
+	  align-items: flex-start;
+	}
+	.uk-flex-wrap-top {
+	  align-content: flex-start;
+	}
