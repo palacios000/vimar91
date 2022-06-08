@@ -23,7 +23,7 @@ module.exports = {
         '21': '5.25rem',
         '23': '5.75rem',
         // Banner heights
-        '15p': '15vh',
+        '15p': '15vh', 
         '42p': '42.5vh',
         //Percentage spacing
         '5p': '5.23%',
@@ -31,6 +31,8 @@ module.exports = {
         '77p': '77%',
       },
       fontSize: {
+        '2xxl': ['1.7rem', '1.6rem'], 
+        '1xl': ['1.45rem', '1.4rem'], 
         '3xl':'1.8rem', //overrides default 1.875
         's1':'0.75rem', //15px
         'menu': ['1.1rem',{
@@ -76,10 +78,10 @@ module.exports = {
         '5vh': '5vh',
         '6vh': '6vh',
         '7vh': '7vh',
-        '4.5': '1.125rem;',
+        '4.5': '1.125rem',
       },
       letterSpacing: {
-        //'widest': '.2em',
+        'widest-1': '.2em',
       },
       fontFamily: {
         'djr': ['forma-djr-banner'],

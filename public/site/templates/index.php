@@ -15,8 +15,8 @@
 	<body class="" >
 		<!-- Container div -->
 			<!-- Navigation -->
-			<div class="flex bg-white h-15p mt-auto px-8 md:px-16 sticky top-0 z-50">
-						<div class="uppercase my-auto  tracking-widest">
+			<div class="flex bg-white h-15p mt-auto px-6 md:px-8 md:px-16 sticky top-0 z-50">
+						<div class="uppercase my-auto  tracking-widest-1">
 							<a class="text-5xl" href="<?= $homepage->url ?>">
 								<span class="font-semibold ">Vimar</span><span class="font-light">1991</span>
 							</a>
@@ -24,7 +24,7 @@
 			</div>
 
 			<!-- Main container -->
-			<div class="pt-7 pb-15 px-8 md:px-16 text-black">
+			<div class="pt-7 pb-8 md:pb-15 px-6 md:px-8 md:px-16 text-black">
 
 				<!-- Title -->
 				<div class="text-5xl font-light py-15 w-52 tracking-widest">
@@ -33,7 +33,7 @@
 
 
 				<!-- Strillo destra -->
-				<div class="text-3xl leading-7 font-semibold w-full md:w-1/2 tracking-widest ml-auto pb-15">
+				<div class="text-1xl md:text-2xxl font-semibold w-full md:w-1/2 tracking-widest ml-auto pb-15">
 					<h1 class=" w-4/5">
 					MILANO DESIGN WEEK
 					7/12 GIU. 22
@@ -41,20 +41,20 @@
 				</div>
 				
 				<!-- Strillo sinistra -->
-				<div class="text-3xl leading-7 font-semibold w-full md:w-7/12 tracking-widest mr-auto ">
+				<div class="text-1xl md:text-2xxl font-semibold w-full md:w-7/12 tracking-widest mr-auto ">
 					<h2>
 						VIMAR1991 È PARTNER TECNICO DI INSIDE LOOKING OUT, A MULTI–SENSORY APARTMENT INSTALLATION BY ELISA OSSINO STUDIO. 
 					</h2>
 				</div>
 
 				<!-- immagine destra -->
-				<div class="md:float-right md:w-1/2 py-12">
-					<img src="/landing/elisa-ossino_cut.jpg" alt="Elisa Ossino Studio">
+				<div class="md:float-right md:w-1/2 md:py-20">
+					<img class="p-14 md:p-0" src="landing/elisa-ossino_cut.jpg" alt="Elisa Ossino Studio">
 				</div>
 				<span class="block clear-both"></span>
 
 				<!-- Strillo sinistra -->
-				<div class="text-3xl leading-7 font-semibold md:w-7/12 tracking-widest mr-auto ">
+				<div class="text-1xl md:text-2xxl font-semibold md:w-7/12 tracking-widest mr-auto ">
 					<p>
 						IN COLLABORAZIONE CON LA DESIGNER ELISA OSSINO, VIMAR1991 PRESENTERÀ DURANTE LA DESIGN WEEK, UN TESSUTO PER IMBOTTITI DAI TONI NATURALI E CALDI IN GRADO DI VALORIZZARE LA PREZIOSITÀ DELLA FIBRA 
 						E LE FORME CHE VESTIRÀ. 
@@ -64,25 +64,26 @@
 					</p>
 				</div>
 
-				<!-- Banner picture -->
-				<div class="w-full pt-24 pb-20">
-					<img class="w-full" src="/landing/FULL.jpg" alt="tessuto lana">
+				<!-- Banner picture - desktop & mobile-->
+				<div class="w-full md:pt-24 md:pb-20 h-0 md:h-auto invisible md:visible overflow-hidden">
+					<img class="w-full " src="landing/FULL.jpg" alt="tessuto lana">
+				</div>
+				<div class="w-full py-20 md:hidden">
+					<img class="w-full " src="landing/FULL_mobile.jpg" alt="tessuto lana">
 				</div>
 
-
 			
-
 				<!-- Right text -->
 				<div class="text-base leading-5 tracking-widest md:w-1/2 ml-auto pb-15">
-					<p class="pr-10">
+					<p class="md:pr-10">
 					I filati scelti esaltano la matericità dei tessuti  proponendo una texture elegante ed irregolare in grado di restituire profondità tattile e visiva all’elemento.
-					Un boucle e una pelliccia che nel seguire la plasticità della forma celebrano anche la bellezza della fibra naturale utilizzata.
+					Un bouclé e una pelliccia che nel seguire la plasticità della forma celebrano anche la bellezza della fibra naturale utilizzata.
 					</p>
 				</div>
 
 
 				<!-- Strillo sinistra -->
-				<div class="text-3xl leading-7 font-semibold md:w-7/12 tracking-widest mr-auto ">
+				<div class="text-1xl md:text-2xxl font-semibold md:w-7/12 tracking-widest mr-auto ">
 					<p>
 						LO STILE E L’ELEGANZA GUIDANO DA SEMPRE IL CICLO PRODUTTIVO DELL’AZIENDA, RENDENDONE I PRODOTTI RICONOSCIBILI, 
 						UNICI E RAFFINATI.
@@ -91,13 +92,13 @@
 				</div>
 
 				<!-- One picture -->
-				<div class="w-700px mx-auto py-15">
-					<img src="/landing/750x505_02.jpg" alt="filati">
+				<div class="md:w-700px mx-auto py-15">
+					<img src="landing/750x505_02.jpg" alt="filati">
 				</div>
 
 				<!-- Small text right -->
-				<div class="text-sm leading-4 tracking-widest md:w-1/2 ml-auto pb-15">
-					<p class="pb-6 pr-10">
+				<div class="text-sm leading-4 tracking-widest md:w-1/2 ml-auto  md:pb-15">
+					<p class="pb-6 md:pr-10">
 						Da qui nasce l’eccezionale varietà dei filati che Vimar
 						è in grado di produrre e presentare al mondo, facendosi
 						promotrice di un’instancabile voglia di novità ed esclusività.
@@ -107,7 +108,7 @@
 						produzione.
 					</p>
 
-					<p class="pb-6 pr-10">
+					<p class="pb-6 md:pr-10">
 						Oggi è un’azienda certificata in grado di offrire prodotti
 						che incarnino una responsabilità etica produttiva oltre ad
 						un’eccellenza di stile e ricercatezza.
@@ -119,29 +120,34 @@
 			</div>
 
 	  	<!-- footer -->
-	  	<footer class="mt-12 px-8 md:px-16 ">
+	  	<footer class="mt-12 px-6 md:px-8 md:px-16 ">
 	  		
-	  	<p class="text-3xl leading-7 font-semibold md:w-1/2 tracking-widest">
+	  	<p class="text-1xl md:text-2xxl font-semibold md:w-1/2 tracking-widest">
 		 	INSIDE<br>
 	  	LOOKING<br>
 	  	OUT<br>
 	  	</p>
 
-	  	<p class="text-3xl leading-7 font-semibold md:w-1/2 tracking-widest pt-7">
+	  	<p class="text-1xl md:text-2xxl font-semibold md:w-1/2 tracking-widest pt-7">
 	  	MILANO DESIGN WEEK<br>
 	  	7/12 GIU. 22<br>
 	  	</p>
 
-	  	<p class="text-3xl leading-7 font-semibold md:w-1/2 tracking-widest pt-7">
+	  	<p class="text-1xl md:text-2xxl font-semibold md:w-1/2 tracking-widest pt-7">
 	  	VIA SOLFERI NO 11<br>
 	  	TERZO PIANO<br>
 	  	</p>
 
 	  	<!-- Small text right -->
 	  	<div class=" md:w-1/2 ml-auto py-15">
-	  		<p class="text-s1 leading-4 tracking-widest">
-				VIMAR 1991 srl <span class="pl-3">via per Santhià 8</span> <span class="pl-3">Carisio (VC)</span>  <span class="pl-3">13040 Italia</span>
-	  		</p>
+	  		<p class="">
+	  			<ul class="flex flex-col md:flex-row text-s1 leading-4 tracking-widest">
+	  				<li class="block">VIMAR 1991 srl</li>
+	  				<li class="md:pl-3 block">via per Santhià 8</li>
+	  				<li class="md:pl-3 block">Carisio (VC)</li>
+	  				<li class="md:pl-3 block">13040 Italia</li>
+	  			</ul>
+    	  		</p>
 	  	</div>
 
 	  	</footer>
