@@ -15,6 +15,7 @@ module.exports = {
       colors:{
         'grigio-chiaro': '#C6C6C6',
         'grigio-footer': '#EDEDED',
+        'transparent': 'transparent',
       },
       spacing: {
         '13': '3.25rem',
