@@ -14,3 +14,9 @@
 		font-weight: 500;
 	}
 }
+
+@layer components {
+	.text-banner-mobile {
+		@apply text-4vh leading-4vh font-semibold;
+	}
+}

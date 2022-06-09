@@ -451,6 +451,13 @@ html{
   }
 }
 
+@media (min-width: 760px) {
+
+  .container {
+    max-width: 760px;
+  }
+}
+
 @media (min-width: 1280px) {
 
   .container {
@@ -470,6 +477,12 @@ html{
   .container {
     max-width: 1536px;
   }
+}
+
+.text-banner-mobile {
+  font-size: 4vh;
+  font-weight: 600;
+  line-height: 4vh;
 }
 
 .visible {
@@ -608,12 +621,8 @@ html{
   display: none;
 }
 
-.h-42p {
-  height: 42.5vh;
-}
-
-.h-76 {
-  height: 19rem;
+.h-29p {
+  height: 29.17vh;
 }
 
 .h-auto {
@@ -640,8 +649,8 @@ html{
   height: 1rem;
 }
 
-.h-32 {
-  height: 8rem;
+.h-12\.5p {
+  height: 12.5vh;
 }
 
 .w-full {
@@ -656,8 +665,8 @@ html{
   width: 75%;
 }
 
-.w-screen {
-  width: 100vw;
+.w-2\/5 {
+  width: 40%;
 }
 
 .w-3\/5 {
@@ -991,10 +1000,6 @@ html{
   letter-spacing: 0.12em;
 }
 
-.text-8vh {
-  font-size: 8vh;
-}
-
 .text-sm {
   font-size: 0.85rem;
   line-height: 1.2rem;
@@ -1037,11 +1042,6 @@ html{
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1056,10 +1056,6 @@ html{
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.leading-7vh {
-  line-height: 7vh;
 }
 
 .leading-7 {
@@ -1166,16 +1162,28 @@ html{
     order: 9999;
   }
 
-  .sm\:pl-8 {
-    padding-left: 2rem;
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:h-15p {
+    height: 15vh;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.8rem;
   }
 }
 
 @media (min-width: 1280px) {
-
-  .md\:right-0 {
-    right: 0px;
-  }
 
   .md\:left-0 {
     left: 0px;
@@ -1202,28 +1210,8 @@ html{
     margin-left: auto;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
-  }
-
-  .md\:h-42p {
-    height: 42.5vh;
-  }
-
-  .md\:h-15p {
-    height: 15vh;
-  }
-
   .md\:w-4\/5 {
     width: 80%;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:w-1\/2 {
@@ -1288,10 +1276,6 @@ html{
     padding-bottom: 2.75rem;
   }
 
-  .md\:pl-0 {
-    padding-left: 0px;
-  }
-
   .md\:pl-16 {
     padding-left: 4rem;
   }
@@ -1340,11 +1324,50 @@ html{
     letter-spacing: 0.12em;
   }
 
-  .md\:text-3xl {
+  .md\:leading-6vh {
+    line-height: 6vh;
+  }
+}
+
+@media (min-width: 760px) {
+
+  .sm-2\:right-0 {
+    right: 0px;
+  }
+
+  .sm-2\:flex {
+    display: flex;
+  }
+
+  .sm-2\:hidden {
+    display: none;
+  }
+
+  .sm-2\:h-42p {
+    height: 42.5vh;
+  }
+
+  .sm-2\:h-15p {
+    height: 15vh;
+  }
+
+  .sm-2\:w-1\/2 {
+    width: 50%;
+  }
+
+  .sm-2\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .sm-2\:text-8vh {
+    font-size: 8vh;
+  }
+
+  .sm-2\:text-3xl {
     font-size: 1.8rem;
   }
 
-  .md\:leading-6vh {
-    line-height: 6vh;
+  .sm-2\:leading-7vh {
+    line-height: 7vh;
   }
 }

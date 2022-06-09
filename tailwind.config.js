@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       screens: {
         'sm': '640px',  
+        'sm-2': '760px',  
         'md': '1280px',
         'lg': '1440px',
       },
@@ -27,8 +28,11 @@ module.exports = {
         '25': '6.25rem',
         '76': '19rem',
         // Banner heights
+        '12.5p': '12.5vh',
         '15p': '15vh',
+        '29p': '29.17vh',
         '42p': '42.5vh',
+
         //Percentage spacing
         '5p': '5.23%',
         '6p': '6.64%',
@@ -36,6 +40,7 @@ module.exports = {
       },
       fontSize: {
         '3xl':'1.8rem', //overrides default 1.875
+        '4.5xl':'2.625rem',
         's1':'0.75rem', //15px
         'menu': ['1.1rem',{
           letterSpacing: '0.12em',
