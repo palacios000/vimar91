@@ -1,5 +1,5 @@
 <?php require 'inc/head.php' ?>
-  <body class="w-screen" >
+  <body class="" >
 	<!-- Container div -->
 	<div>
 		<?php require 'inc/menu.php' ?>
