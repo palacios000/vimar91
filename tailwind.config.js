@@ -9,12 +9,14 @@ module.exports = {
     extend: {
       screens: {
         'sm': '640px',  
+        'sm-2': '760px',  
         'md': '1280px',
         'lg': '1440px',
       },
       colors:{
         'grigio-chiaro': '#C6C6C6',
         'grigio-footer': '#EDEDED',
+        'transparent': 'transparent',
       },
       spacing: {
         '13': '3.25rem',
@@ -26,8 +28,11 @@ module.exports = {
         '25': '6.25rem',
         '76': '19rem',
         // Banner heights
-        '15p': '15vh', 
+        '12.5p': '12.5vh',
+        '15p': '15vh',
+        '29p': '29.17vh',
         '42p': '42.5vh',
+
         //Percentage spacing
         '5p': '5.23%',
         '6p': '6.64%',
@@ -37,6 +42,7 @@ module.exports = {
         '2xxl': ['1.7rem', '1.6rem'], 
         '1xl': ['1.45rem', '1.4rem'], 
         '3xl':'1.8rem', //overrides default 1.875
+        '4.5xl':'2.625rem',
         's1':'0.75rem', //15px
         'menu': ['1.1rem',{
           letterSpacing: '0.12em',

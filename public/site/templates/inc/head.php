@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" />
 
 		<!-- <link rel="shortcut icon" href="<?= $config->urls->templates?>pictures/favicon.png" /> -->
-    	
+
 		<!-- Adobe Fonts Font Forma DJR Banner -->
 		<link rel="stylesheet" href="https://use.typekit.net/dhh1axy.css">
 
